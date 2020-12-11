@@ -6,6 +6,10 @@ Examples using Jest mock features.
 
 See `examples` directory.
 
+- `cookie.test.ts`
+  - `jest.spyOn`
+  - `mockFn.mockImplementation`
+
 ## Getting Started
 
 ```sh
