@@ -9,7 +9,11 @@ See `examples` directory.
 - `cookie.test.ts`
   - `jest.spyOn`
   - `mockFn.mockImplementation`
-
+- `navigator.test.ts`
+  - `jest.spyOn`
+  - `mockFn.mockReturnValue`
+  - `document.documentElement.innerHTML`
+  
 ## Getting Started
 
 ```sh
