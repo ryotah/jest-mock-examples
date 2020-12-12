@@ -14,13 +14,19 @@ See `examples` directory.
   - `mockFn.mockReturnValue`
   - `document.documentElement.innerHTML`
 - `now.test.ts`
-  - `jest.spyOn(global, 'Date').mockImplementation(() => mockDate)`
+  - `jest.spyOn`
 - `module/`
   - `jest.mock`
 - `lodash/`
   - `jest.mock`
   - `jest.unmock`
   - `__mocks__/lodash`
+- `module-registry/`
+  - `jest.resetModules`
+  - `jest.isolateModules`
+
+resetModules
+isolateModules
 
 ## Getting Started
 
