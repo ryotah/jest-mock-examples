@@ -17,6 +17,7 @@ See `examples` directory.
   - `jest.spyOn`
 - `module/`
   - `jest.mock`
+  - `jest.doMock`
 - `lodash/`
   - `jest.mock`
   - `jest.unmock`
@@ -24,9 +25,6 @@ See `examples` directory.
 - `module-registry/`
   - `jest.resetModules`
   - `jest.isolateModules`
-
-resetModules
-isolateModules
 
 ## Getting Started
 
