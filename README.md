@@ -9,14 +9,18 @@ See `examples` directory.
 - `cookie.test.ts`
   - `jest.spyOn`
   - `mockFn.mockImplementation`
-- `navigator/index.test.ts`
+- `navigator/`
   - `jest.spyOn`
   - `mockFn.mockReturnValue`
   - `document.documentElement.innerHTML`
 - `now.test.ts`
   - `jest.spyOn(global, 'Date').mockImplementation(() => mockDate)`
-- `relative-module/clock.test.ts`
+- `module/`
   - `jest.mock`
+- `lodash/`
+  - `jest.mock`
+  - `jest.unmock`
+  - `__mocks__/lodash`
 
 ## Getting Started
 
@@ -47,11 +51,11 @@ node_modules/.bin/tsc --init
 
 **jest.config.js**
 
+https://github.com/kulshekhar/ts-jest
+
 ```js
-// https://github.com/kulshekhar/ts-jest
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
 };
 ```
 
