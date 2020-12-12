@@ -9,11 +9,15 @@ See `examples` directory.
 - `cookie.test.ts`
   - `jest.spyOn`
   - `mockFn.mockImplementation`
-- `navigator.test.ts`
+- `navigator/index.test.ts`
   - `jest.spyOn`
   - `mockFn.mockReturnValue`
   - `document.documentElement.innerHTML`
-  
+- `now.test.ts`
+  - `jest.spyOn(global, 'Date').mockImplementation(() => mockDate)`
+- `relative-module/clock.test.ts`
+  - `jest.mock`
+
 ## Getting Started
 
 ```sh
