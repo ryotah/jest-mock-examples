@@ -5,5 +5,3 @@ export const state = {
 export function increment(): void {
   state.count += 1;
 }
-
-console.log('Loaded!');
